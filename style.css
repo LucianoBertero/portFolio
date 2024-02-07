@@ -1,0 +1,487 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f6e6c9; /* Color de fondo similar al papel antiguo */
+    background-image: url('./istockphoto-1067788314-612x612.jpg'); /* Textura de papel antiguo */
+    background-size: cover;/* Colores del degradado */
+    margin: 0;
+    padding: 0;
+
+}
+.coordinates{
+  
+    padding-right: -50000px;
+    margin-top: 30px;
+
+}
+.name{
+    margin-top: 30px;
+
+}
+p{
+    
+    text-align: center;;
+}
+.links {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+}
+
+.links i {
+    font-size: 2rem; /* Tamaño de los iconos */
+    margin-left: 10px; /* Espacio entre los iconos */
+}
+
+.links-footer{
+    display: flex;
+    justify-content: center; 
+    margin-top: 18px;
+
+}
+.links-footer i {
+    font-size: 2rem; /* Tamaño de los iconos */
+    margin-left: 10px; /* Espacio entre los iconos */
+}
+.email{
+    margin-top: 8px;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+main{
+    max-width:60%;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 4px solid rgba(54, 28, 28, 0.432);
+    border-radius: 10px;
+    min-width: 400px;
+    background-color:#5a564f0c;
+    text-align: right;
+
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Old English Text MT;
+    color:  #333333;   
+    font-size: 5rem;
+    padding-bottom: 1.7rem;
+}
+
+span{
+    font-size: 2rem;
+    color: bold;
+}
+
+header{
+ 
+ 
+ 
+}
+
+.title{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+
+}
+
+hr{
+    border:2px solid rgba(0, 0, 0, 0.253);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #292727a4 ;
+    font: Times New Roman;
+    padding-top: 2rem;
+}
+h3{
+
+}
+h4{
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.location-info {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.left {
+    text-align: left;
+    padding-left: 4rem;
+}
+
+.right {
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.subtitle{
+    margin-top: 20rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    border-top: none;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: nowrap;
+    border-bottom: none;
+  }
+  
+  .ladoIzq {
+    margin: 2px;
+
+    flex-grow: 1; 
+    min-width: 30%;
+    width: 15%; 
+  }
+  
+  .ladoDer {
+    flex-grow: 2; 
+    margin: 2px;
+    min-width: 40%;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(15, 19, 14, 0.452); /* Color de fondo con opacidad */
+    height: 3rem;
+    color: #fff; /* Color del texto */
+    border-radius: 7px;
+    font-size: 2rem;
+   
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    border: 2px solid #ffffff36; /* Borde sólido */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219); /* Sombra */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+img{
+    width:80%;
+   margin-left: 30px;
+    object-fit: cover;
+    border-radius: 20px;
+  
+    min-height: 200px;
+}
+
+.foto-perfil {
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    filter: grayscale(100%); /* Convierte la imagen a blanco y negro */
+    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
+    border-radius: 20px; /* Agrega borde redondeado a la imagen */
+}
+
+.presentation {
+    text-align: center; /* Centra el texto de la presentación */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+
+.img-pomo{
+    width: 30%;
+   height: 100px;
+    object-fit: cover;
+    flex: 0 0 auto;
+    margin-right: 20px; 
+    margin-top: 20px;
+
+ 
+
+}
+.card-proyect {
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    border-top: 2px solid #f8f1e0 ;
+    padding-top: 5px;
+ 
+}
+
+.repository {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.github-img {
+    width: 30px; /* Ajusta el tamaño de la imagen según tu preferencia */
+    height: auto;
+    /* Otros estilos para la imagen... */
+}
+
+.column {
+    padding: 10px;
+
+    box-sizing: border-box; 
+}
+
+.unidad {
+    border: 2px solid #f8f1e0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las cards horizontalmente */
+}
+
+.card-estudio {
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20px 10px; /* Ajusta el margen entre las cards */
+    max-width: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333a1;
+    position: relative;
+    flex: 1; /* Hace que las cards se expandan para llenar el espacio disponible */
+    min-width: 250px;
+    max-height: 200px;
+}
+
+.card-estudio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-estudio {
+    /* Estilos regulares */
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 20px;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+
+    /* Agregar más estilos según sea necesario */
+}
+
+
+.card-estudio::before {
+    content: " ";
+    background-color: #666666a1;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-estudio::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #666;
+    z-index: -1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.github-img{
+    width:4%;
+    height: 100%;
+    object-fit: cover;
+    flex: 0 0 auto;
+    margin-right: 20px; 
+}
+
+
+@media (max-width: 768px) {
+    .column {
+      flex: 1 100%; /* En pantallas más pequeñas, cada columna tomará el 100% del ancho */
+    }
+  }
+
+
+
+
+
+  .separator {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(54, 28, 28, 0.432);
+}
+
+.separator::before {
+    margin-right: 10px;
+}
+
+.separator::after {
+    margin-left: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(54, 28, 28, 0.432);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra verticalmente */
+}
+.presentation {
+    font-family: "Times New Roman", Times, serif; /* Utilizamos una fuente similar a la de los periódicos */
+    font-size: 16px;
+  
+    max-width: 600px;
+ 
+    padding: 8px;
+}
+
+.presentation p {
+    text-indent: 0px; /* Sangría para simular un párrafo de periódico */
+}
+
+.presentation p:first-of-type:first-letter {
+    font-size: 3em; /* Hacemos que la primera letra del primer párrafo sea más grande */
+    float: left; /* Hacemos que la primera letra flote a la izquierda para que el texto fluya alrededor */
+    margin-right: 5px; /* Agregamos un pequeño margen a la derecha para separar la primera letra del resto del texto */
+}
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+    .ladoIzq, .ladoDer {
+        width: 50%;
+        max-width: none;
+    }
+}
+
+/* Estilos para pantallas medianas y pequeñas */
+@media screen and (max-width: 767px) {
+    main {
+        max-width: 90%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .ladoIzq, .ladoDer {
+        width: 100%;
+        max-width: none;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas (móviles) */
+@media screen and (max-width: 480px) {
+    .presentation p:first-of-type:first-letter {
+        font-size: 2em; /* Reducimos un poco el tamaño de la primera letra en dispositivos móviles */
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila si no caben en el ancho del contenedor */
+    max-width: 800px; /* Ancho máximo del contenedor de tarjetas */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.card {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido de la tarjeta */
+    margin-right: 10px; /* Espacio entre las tarjetas */
+    margin-bottom: 10px; /* Espacio entre las filas de tarjetas */
+    padding: 10px; /* Espacio interno de la tarjeta */
+    background-color: #f8d9a998; /* Color de fondo de la tarjeta */
+    border-radius: 5px; /* Borde redondeado de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+    flex: 0 0 auto; /* Evita que las tarjetas se estiren para llenar el espacio disponible */
+    
+}
+
+.card i {
+    font-size: 24px; /* Tamaño del ícono */
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.card p {
+    margin: 0; /* Elimina el margen del párrafo */
+    font-size: 18px; /* Tamaño del texto */
+}
+.icon-stacks{
+    width: 4%;
+    object-fit: cover;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.download-button {
+    background-color: #e0cfa7; /* Color de fondo */
+    color: #333; /* Color del texto */
+    border: none;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.download-button:hover {
+    background-color: #f1d29c; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
