@@ -76,7 +76,7 @@ p{
 }
 
 main{
-    max-width:1200px;
+    max-width:70%;
   
     margin-left: auto;
     margin-right: auto;
@@ -165,7 +165,7 @@ h4{
     margin-bottom: -10px; /* Ajusta la distancia entre cada título y la imagen */
 }
 .redirectores{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .container {
@@ -367,6 +367,11 @@ a:hover {
 }
 
 
+@media (max-width: 768px) {
+    .column {
+      flex: 1 100%; /* En pantallas más pequeñas, cada columna tomará el 100% del ancho */
+    }
+  }
 
 
 
@@ -478,7 +483,6 @@ a:hover {
     font-family: 'Times New Roman', Times, serif; /* Fuente serif para un aspecto más antiguo */
     cursor: pointer; /* Cursor de estilo */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transición suave de estilos */
-
 }
 
 .button-vintage:hover {
@@ -508,7 +512,6 @@ a:hover {
     .container {
         flex-direction: row;
     }
-    
     .ladoIzq, .ladoDer {
         width: 50%;
         max-width: none;
@@ -516,13 +519,9 @@ a:hover {
 }
 
 /* Estilos para pantallas medianas y pequeñas */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767px) {
     main {
         max-width: 90%;
-    }
-    img{
-        width: 60%;
-        margin-left: 30px;
     }
     .container {
         flex-direction: column;
