@@ -23,9 +23,7 @@
 
   
     </div>
-    <div class="day">
-        Viernes, 19 de Mayo de 2026
-    </div>
+    <div class="day" id="current-date"></div>
 <hr>
     <div class="subtilte">
         <h2>FULLSTACK DEVELOPER</h2> 
@@ -222,5 +220,18 @@
   
 
 <script src="./Portfolio_files/scrips.js.descarga"></script>
+
+<script>
+    // Fecha dinámica
+    const fechaElement = document.getElementById('current-date');
+    const dias = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    const fecha = new Date();
+    const diaSemana = dias[fecha.getDay()];
+    const dia = fecha.getDate();
+    const mes = meses[fecha.getMonth()];
+    const anio = fecha.getFullYear();
+    fechaElement.textContent = `${diaSemana}, ${dia} de ${mes} de ${anio}`;
+</script>
 
 </body></html>
