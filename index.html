@@ -1,237 +1,267 @@
 <!DOCTYPE html>
-<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
-    
     <title>Luciano Bertero - Portfolio</title>
-<link rel="stylesheet" href="./Portfolio_files/style.css"><link rel="stylesheet" href="./Portfolio_files/all.css" crossorigin="anonymous"><link rel="stylesheet" href="./Portfolio_files/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></head>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./Portfolio_files/style.css">
+</head>
 <body>
     <main>
         <div class="links">
-            <a href="https://github.com/LucianoBertero" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.linkedin.com/in/luciano-bertero/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:luchobertero@gmail.com"><i class="fa-solid fa-inbox"></i></a>
+            <a href="https://github.com/LucianoBertero" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/luciano-bertero/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:luchobertero@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
         </div>
         
-    <header>
-        <div class="title">
-      
-        <h1>Personal Portfolio</h1>
-
-  
-    </div>
-    <div class="day" id="current-date"></div>
-<hr>
-    <div class="subtilte">
-        <h2>FULLSTACK DEVELOPER</h2> 
-        <div class="location-info">
-        <h3 class="left"><p class="name">Luciano Bertero</p></h3><h3 class="right"><p class="coordinates">Córdoba, Argentina</p></h3>
-        </div>
-    </div>
-    <div class="separator">
-        <span class="dot"></span>
-    </div>
-
-    </header>
-   
-    <section class="container">
-       
-
-        <div class="ladoIzq flex-item column">
-      
-                <div class="items">
-                    Sobre Mi...
+        <header>
+            <div class="title">
+                <h1>El Diario del Desarrollador</h1>
+            </div>
+            <div class="day" id="current-date"></div>
+            <hr class="title-divider">
+            <div class="subtitle">
+                <h2>FULLSTACK DEVELOPER</h2> 
+                <div class="location-info">
+                    <h3 class="left"><p class="name">Luciano Bertero</p></h3>
+                    <h3 class="right"><p class="coordinates">Córdoba, Argentina</p></h3>
+                </div>
+            </div>
+        </header>
+    
+        <section class="container">
+            <div class="ladoIzq flex-item column">
+                <div class="section-header">
+                    <span>SOBRE MI</span>
                 </div>
                 <img src="./Portfolio_files/captura_cv.PNG" alt="foto de perfil" class="foto-perfil">
                 <div class="presentation">
-                    <p>Ingeniero en Sistemas y Desarrollador Fullstack con experiencia en el desarrollo de aplicaciones web y mobile utilizando <strong>React, Angular, React Native, Node.js</strong> y bases de datos SQL/NoSQL. Enfoque en arquitectura limpia, APIs REST, buenas prácticas y trabajo en metodologías ágiles.</p>
+                    <p>Ingeniero en Sistemas y Desarrollador Fullstack con experiencia en el desarrollo de aplicaciones web y mobile utilizando <strong>React, Angular, React Native, Node.js</strong> y bases de datos SQL/NoSQL.</p>
+                    <p style="margin-top: 15px;">Enfoque en arquitectura limpia, APIs REST, buenas prácticas y trabajo en metodologías ágiles.</p>
                 </div>
                 <div class="button-container">
-                    <button class="download-button" id="download-btn">Descargar CV</button>
+                    <a href="./Bertero_Luciano_Cv.pdf" class="download-button" download>Descargar CV</a>
+                </div>
+            </div>
+
+            <div class="ladoDer flex-item column">
+                <div class="section-header">
+                    <span>PROYECTOS</span>
                 </div>
                 
-                <!-- Experiencia -->
-                <div class="items" style="margin-top: 20px;">
-                    Experiencia
-                </div>
-                <div class="card-estudio" style="margin-top: 10px;">
+                <article class="project-article">
+                    <div class="project-header">
+                        <h4>VINCULATE</h4>
+                    </div>
+                    <div class="project-content">
+                        <img src="./Portfolio_files/vinculate.PNG" alt="Vinculate" class="project-img">
+                        <p><span class="drop-cap">V</span>incúlate es una plataforma que conecta voluntarios, personas altruistas y organizaciones necesitadas. Facilita la colaboración promoviendo la solidaridad y el impacto social positivo a través de una red de voluntariado dinámica y accesible.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="vintage-button">Repositorio</a>
+                    </div>
+                </article>
+
+                <article class="project-article">
+                    <div class="project-header">
+                        <h4>POMODORO</h4>
+                    </div>
+                    <div class="project-content">
+                        <img src="./Portfolio_files/pomodoro.PNG" alt="Pomodoro" class="project-img">
+                        <p><span class="drop-cap">P</span>omodoro es una aplicación web diseñada para mejorar la productividad mediante la técnica de gestión del tiempo Pomodoro. Ofrece temporizadores personalizables, seguimiento de sesiones y descansos, y una interfaz intuitiva.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="vintage-button">Demo</a>
+                        <a href="#" class="vintage-button">Repositorio</a>
+                    </div>
+                </article>
+
+                <article class="project-article">
+                    <div class="project-header">
+                        <h4>URL SHORTER</h4>
+                    </div>
+                    <div class="project-content">
+                        <img src="./Portfolio_files/urlshort.PNG" alt="URL Shorter" class="project-img">
+                        <p><span class="drop-cap">A</span>plicación web diseñada para simplificar la gestión de enlaces al ofrecer un servicio de acortamiento de URLs. Proporciona herramientas personalizables para acortar enlaces, rastrear estadísticas y una interfaz intuitiva.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="vintage-button">Demo</a>
+                        <a href="#" class="vintage-button">Repositorio</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    
+        <div class="section-divider"></div>
+        <section class="unidad">
+            <div class="section-header">
+                <span>EXPERIENCIA</span>
+            </div>
+            <div class="card-container">
+                <div class="card-estudio experience-card">
                     <h3>Desarrollador de Software</h3>
-                    <p><strong>Vortex IT</strong></p>
-                    <p>Jun 2024 – Actualidad</p>
-                    <ul style="margin-top: 8px; padding-left: 15px; font-size: 14px;">
-                        <li>Desarrollo de interfaces web y mobile en React, Angular y React Native.</li>
-                        <li>Creación de componentes reutilizables y hooks personalizados.</li>
-                        <li>Implementación de APIs REST con Express.js y MySQL.</li>
-                        <li>Refactorización de código legacy.</li>
-                        <li>Integración de autenticación con JWT y Auth0.</li>
+                    <p><strong>Vortex IT</strong> — Córdoba, Argentina</p>
+                    <p style="font-style: italic; color: #8a7660; font-size: 0.75rem;">Jun 2024 — Actualidad</p>
+                    <ul class="experience-tasks">
+                        <li>Desarrollo web/mobile: React, Angular, React Native</li>
+                        <li>Componentes reutilizables y hooks</li>
+                        <li>APIs REST con Express.js y MySQL</li>
+                        <li>Refactorización de código legacy</li>
+                        <li>Autenticación con JWT y Auth0</li>
                     </ul>
                 </div>
-               
-       </div>
-
-        <div class="ladoDer flex-item column">
-
-            <div class="items">
-                Proyectos
+                <div class="card-estudio experience-card">
+                    <h3>Proyectos Destacados</h3>
+                    <p><strong>Carrefour Detail</strong></p>
+                    <p style="font-size: 0.72rem; color: #5a4a3a;">Sistema Integral de Gestión: vouchers, alertas automáticas, módulo de stock, gestión de imágenes. Stack: Node.js, Express, TypeORM, MySQL, React.</p>
+                    <p style="margin-top: 8px;"><strong>Caster IA</strong></p>
+                    <p style="font-size: 0.72rem; color: #5a4a3a;">Proyecto base modular para apps mobile. Auth, navegación, UI components reutilizables, estructura escalable.</p>
+                </div>
             </div>
-            <div class="proyects">
-                <!-- Carrefour Detail -->
-                <div class="title-proyect">
-                    <h4>CARREFOUR DETAIL</h4>
-                </div>
-                <div class="card-proyect">
-                    <img src="./Portfolio_files/vinculate.PNG" alt="" class="img-pomo">
-                    <p><span>S</span>istema Integral de Gestión de vouchers con alertas automáticas, vencimientos y deshabilitación. Backend con Node.js, Express, TypeORM y MySQL. Panel administrativo en React. Módulo de Stock con control de inventario en tiempo real y gestión de imágenes de productos.</p>
-                   
-                  
-                </div> 
-                <div class="redirectores">
-                    <button class="button-vintage">Demo</button>
-                    <button class="button-vintage">Repositorio</button>
-                </div>
-                
-                <!-- Caster IA -->
-                <div class="title-proyect">
-                    <hr>
-                    <h4>CASTER IA</h4>
-                </div>
-                <div class="card-proyect">
-                    <img src="./Portfolio_files/pomodoro.PNG" alt="" class="img-pomo">
-                    <p><span>P</span>royecto base modular para aplicaciones mobile. Integración de autenticación, navegación, estructura de carpetas y servicios. Creación de UI components reutilizables y estructura escalable para apps móviles.</p>
-                </div>
-                <div class="redirectores">
-                    <button class="button-vintage">Demo</button>
-                    <button class="button-vintage">Repositorio</button>
-                </div>
-
-                <!-- Vinculate (old project kept) -->
-                <div class="title-proyect">
-                    <hr>
-                    <h4>VINCULATE</h4>
-                </div>
-                <div class="card-proyect">
-                    <img src="./Portfolio_files/urlshort.PNG" alt="" class="img-pomo">
-                    <p><span>P</span>lataforma que conecta voluntarios, personas altruistas y organizaciones necesitadas. Facilita la colaboración promoviendo la solidaridad y el impacto social positivo a través de una red de voluntariado dinámica y accesible.</p>
-                </div>
-                <div class="redirectores">
-                    <button class="button-vintage">Repositorio</button>
-                </div>
-                
-            </div>
-  
-            
-        </div>
-        
-
-      
-    </section>
-   
-   
-    <section class="unidad">
-        <div class="items">
-            Estudios
-        </div>
-        <div class="card-container">
-            <div class="card-estudio">
-                <h3>Ingeniería en Sistemas</h3>
-                <p>Universidad Tecnológica Nacional</p>
-                <p>2018 – 2025</p>
-            </div>
-            <div class="card-estudio">
-                <h3>Bootcamp Desarrollo Web & Mobile</h3>
-                <p>Vortex IT</p>
-                <p>2024</p>
-            </div>
-            <div class="card-estudio">
-                <h3>Técnico en Informática Profesional y Personal</h3>
-                <p>Instituto Técnico El Obraje</p>
-                <p>2011 – 2017 • Terminada</p>
-            </div>
-        </div>
-    </section>
+        </section>
     
-  
-    <section class="unidad">
-        <div class="items">
-            Stack
-        </div>
-
-        <div class="card-container">
-            <div class="card">
-                <i class="fa-brands fa-react"></i>
-                <p>React</p>
+        <div class="section-divider"></div>
+        <section class="unidad">
+            <div class="section-header">
+                <span>EDUCACIÓN</span>
             </div>
-            <div class="card">
-                <i class="fa-brands fa-angular"></i>
-                <p>Angular</p>
+            <div class="card-container">
+                <div class="card-estudio">
+                    <h3>Ingeniería en Sistemas</h3>
+                    <p>Universidad Tecnológica Nacional</p>
+                    <p>2018 — 2025</p>
+                </div>
+                <div class="card-estudio">
+                    <h3>Bootcamp Web & Mobile</h3>
+                    <p>Vortex IT</p>
+                    <p>2024</p>
+                </div>
+                <div class="card-estudio">
+                    <h3>Técnico en Informática</h3>
+                    <p>Instituto Técnico El Obraje</p>
+                    <p>2011 — 2017</p>
+                </div>
             </div>
-            <div class="card">
-                <i class="fa-brands fa-react"></i>
-                <p>React Native</p>
+        </section>
+    
+        <div class="section-divider"></div>
+        <section class="unidad">
+            <div class="section-header">
+                <span>STACK TECNOLÓGICO</span>
             </div>
-            <div class="card">
-                <i class="fa-brands fa-js"></i>
-                <p>JavaScript</p>
+            <div class="card-container stack-container">
+                <div class="card stack-card">
+                    <i class="fa-brands fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-brands fa-angular"></i>
+                    <p>Angular</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <p>React Native</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-solid fa-code"></i>
+                    <p>TypeScript</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-brands fa-node"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-solid fa-database"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-solid fa-leaf"></i>
+                    <p>MongoDB</p>
+                </div>
+                <div class="card stack-card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <p>Git</p>
+                </div>
             </div>
-            <div class="card">
-                <i class="fa-solid fa-code"></i>
-                <p>TypeScript</p>
-            </div>
-            <div class="card">
-                <i class="fa-brands fa-node-js"></i>
-                <p>Node.js</p>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-database"></i>
-                <p>MySQL</p>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-leaf"></i>
-                <p>MongoDB</p>
-            </div>
-            <div class="card">
-                <i class="fa-brands fa-git-alt"></i>
-                <p>Git</p>
-            </div>
-        </div>
+        </section>
         
-      
-            <!-- Agrega más tarjetas aquí según sea necesario -->
-       
-        
-    </section>
-    <div class="separator">
-        <span class="dot"></span>
-    </div>
-    <footer>
-        
-        <div class="links-footer">
-           
-            <i class="fa-brands fa-square-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-solid fa-inbox"></i> <p class="email">Email: luchobertero@gmail.com | Tel: +54 3547 504253</p>
-        </div>
-    </footer>
-
+        <footer>
+            <div class="daily-quote">
+                <p class="quote-text" id="quote-text"></p>
+                <p class="quote-author" id="quote-author"></p>
+            </div>
+            
+            <div class="links-footer">
+                <a href="https://github.com/LucianoBertero" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/luciano-bertero/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:luchobertero@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <p class="email">luchobertero@gmail.com | +54 3547 504253</p>
+            </div>
+            <p class="copyright">© Luciano Bertero — Córdoba, Argentina</p>
+        </footer>
     </main>
-  
 
-<script src="./Portfolio_files/scrips.js.descarga"></script>
+    <script>
+        // Fecha dinámica
+        const fechaElement = document.getElementById('current-date');
+        const dias = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+        const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+        const fecha = new Date();
+        const diaSemana = dias[fecha.getDay()];
+        const dia = fecha.getDate();
+        const mes = meses[fecha.getMonth()];
+        const anio = fecha.getFullYear();
+        fechaElement.textContent = `${diaSemana}, ${dia} de ${mes} de ${anio}`;
 
-<script>
-    // Fecha dinámica
-    const fechaElement = document.getElementById('current-date');
-    const dias = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-    const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-    const fecha = new Date();
-    const diaSemana = dias[fecha.getDay()];
-    const dia = fecha.getDate();
-    const mes = meses[fecha.getMonth()];
-    const anio = fecha.getFullYear();
-    fechaElement.textContent = `${diaSemana}, ${dia} de ${mes} de ${anio}`;
-</script>
+        // Efecto máquina de escribir en el título
+        const title = document.querySelector('.title h1');
+        const titleText = title.textContent;
+        title.textContent = '';
+        let charIndex = 0;
+        
+        function typeWriter() {
+            if (charIndex < titleText.length) {
+                title.textContent += titleText.charAt(charIndex);
+                charIndex++;
+                setTimeout(typeWriter, 80);
+            }
+        }
+        setTimeout(typeWriter, 500);
 
-</body></html>
+        // Cita diaria
+        const quotes = [
+            { text: "Code is like humor. When you have to explain it, it's bad.", author: "Cory House" },
+            { text: "First, solve the problem. Then, write the code.", author: "John Johnson" },
+            { text: "Experience is the name everyone gives to their mistakes.", author: "Oscar Wilde" },
+            { text: "The best error message is the one that never shows up.", author: "Richard Stallman" },
+            { text: "Simplicity is the soul of efficiency.", author: "Austin Freeman" },
+            { text: "Make it work, make it right, make it fast.", author: "Kent Beck" },
+            { text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", author: "Martin Fowler" },
+            { text: "Programming isn't about what you know; it's about what you can figure out.", author: "Chris Pine" },
+            { text: "The most disastrous thing that you can ever learn is your first programming language.", author: "Alan Kay" },
+            { text: "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.", author: "Dan Salomon" },
+            { text: "Java is to JavaScript what car is to carpet.", author: "Chris Heilmann" },
+            { text: "Why do we never have time to do it right the first time, but always have time to do it over?", author: "Unknown" },
+            { text: "Stay hungry, stay foolish.", author: "Steve Jobs" }
+        ];
+        
+        const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+        const dailyQuote = quotes[dayOfYear % quotes.length];
+        
+        const quoteTextEl = document.getElementById('quote-text');
+        const quoteAuthorEl = document.getElementById('quote-author');
+        
+        if (quoteTextEl && quoteAuthorEl) {
+            quoteTextEl.textContent = `"${dailyQuote.text}"`;
+            quoteAuthorEl.textContent = `— ${dailyQuote.author}`;
+        }
+    </script>
+</body>
+</html>
