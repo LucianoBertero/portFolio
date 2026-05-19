@@ -1,6 +1,3 @@
 {
-  "buildCommand": "npx serve -s",
-  "outputDirectory": ".",
-  "framework": null,
-  "nodeVersion": "24.x"
+  "outputDirectory": "."
 }
